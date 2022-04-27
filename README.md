@@ -19,7 +19,7 @@
   
 <h2>Key learnings: </h2>
   
-1. Array methods - forEach(), find()
+1. Array methods - forEach(), findIndex()
   ```
   services.forEach(service => {
     const {id, name, price} = service
@@ -29,7 +29,7 @@
     `
   ```
   ```
-  const item = services.find(service => service.id === target.id)
+  const item = services.findIndex(service => service.id === target.id)
   ```
   
 2. Event.Target
