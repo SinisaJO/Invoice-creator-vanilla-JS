@@ -12,6 +12,15 @@
    <li> Total costs stays updated</li>
    <li> Button to &#34;submit/send invoice&#34; </li>
 </ol>
+<ul>
+  <h2>Key learnings: </h2>
+   <li> Object destructuring </li> `const {id, name, price} = service`
+   <li> Buttons to add service to array </li>
+   <li> Place to display data from array - updated every time the array changes</li>
+   <li> Once for same service</li>
+   <li> Total costs stays updated</li>
+   <li> Button to &#34;submit/send invoice&#34; </li>
+</ul>
 ## Author
 
 👤 **Sinisa Jovanovic**
