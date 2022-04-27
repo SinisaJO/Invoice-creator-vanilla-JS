@@ -9,10 +9,6 @@ const services = [
 ]
 let servicesCart = []
 
-if(JSON.parse(localStorage.getItem("services"))){
-    servicesCart = JSON.parse(localStorage.getItem("services"))
-    renderService(servicesCart)
-}
 
 services.forEach(service => {
     const {id, name, price} = service
@@ -30,7 +26,6 @@ servicesBox.addEventListener("click", (e) => {
             servicesCart.push(item)
             renderService(servicesCart)
         }
-        localStorage.setItem("services", JSON.stringify(servicesCart))
     }
 })
 
@@ -39,14 +34,12 @@ box.addEventListener("click", (e) => {
     if(target.tagName === "BUTTON") {
         const item = servicesCart.findIndex(service => service.id === target.id)
         servicesCart.splice(item, 1)
-        localStorage.setItem("services", JSON.stringify(servicesCart))
         renderService(servicesCart)
     }
 })
 
 sendBtn.addEventListener("click", () => {
     servicesCart = []
-    localStorage.setItem("services", JSON.stringify(servicesCart))
     renderService(servicesCart)
 })
 
@@ -70,6 +63,5 @@ function renderService(services) {
     totalAmount.textContent = "$" + sum
     box.innerHTML = html
 }
-
 
 
