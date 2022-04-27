@@ -9,8 +9,9 @@ const services = [
 ]
 let servicesCart = JSON.parse(localStorage.getItem("services"))
 
-renderService(servicesCart)
-
+if(servicesCart) {
+    renderService(servicesCart)
+}
 services.forEach(service => {
     const {id, name, price} = service
     servicesBox.innerHTML += 
