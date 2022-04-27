@@ -12,7 +12,7 @@
    <li> Place to display data from array - updated every time the array changes</li>
    <li> Once for same service</li>
    <li> Total costs stays updated</li>
-   <li> Button to &#34;submit/send invoice&#34; </li>
+   <li> Button to submit/send invoice</li>
 </ol>
 <ul>
   
