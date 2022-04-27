@@ -3,13 +3,13 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-<ol> Requirements: 
-   <li>array to hold services requested </li>
-   <li>buttons to add service to array </li>
-   <li>place to display data from array - updated every time the array changes</li>
-   <li>once for same service</li>
-   <li>total costs stays updated</li>
-   <li>button to &#34;submit/send invoice&#34; </li>
+<ol>Requirements: 
+   <li> array to hold services requested </li>
+   <li> buttons to add service to array </li>
+   <li> place to display data from array - updated every time the array changes</li>
+   <li> once for same service</li>
+   <li> total costs stays updated</li>
+   <li> button to &#34;submit/send invoice&#34; </li>
 </ol>
 ## Author
 
