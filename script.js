@@ -9,7 +9,10 @@ const services = [
 ]
 let servicesCart = []
 
-servicesCart = JSON.parse(localStorage.getItem("services"))
+
+if(localStorage.getItem("name") !== null) {
+    servicesCart = JSON.parse(localStorage.getItem("name"))
+}
 renderService(servicesCart)
 
 services.forEach(service => {
@@ -26,7 +29,7 @@ servicesBox.addEventListener("click", (e) => {
         const item = services.find(service => service.id === target.id)
         if (!servicesCart.includes(item)){
         servicesCart.push(item)
-        localStorage.setItem("services", JSON.stringify(servicesCart))
+        localStorage.setItem("name", JSON.stringify(servicesCart))
         renderService(servicesCart)
         }
     }
@@ -37,13 +40,14 @@ box.addEventListener("click", (e) => {
     if(target.tagName === "BUTTON") {
         const item = servicesCart.find(service => service.id === target.id)
         servicesCart.splice(item, 1)
-        localStorage.setItem("services", JSON.stringify(servicesCart))
+        localStorage.setItem("name", JSON.stringify(servicesCart))
         renderService(servicesCart)
     }
 })
 
 sendBtn.addEventListener("click", () => {
     servicesCart = []
+    localStorage.setItem("name", JSON.stringify(servicesCart))
     renderService(servicesCart)
 })
 
