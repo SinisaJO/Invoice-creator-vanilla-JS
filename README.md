@@ -16,13 +16,7 @@
   
 <h2>Key learnings: </h2>
   
-1. Object destructuring  
-  
-  ```
-  const {id, name, price} = service
-  ```
-  
-2. Array methods - forEach(), find()
+1. Array methods - forEach(), find()
   ```
   services.forEach(service => {
     const {id, name, price} = service
@@ -35,7 +29,7 @@
   const item = services.find(service => service.id === target.id)
   ```
   
-3. Event.Target
+2. Event.Target
   ```
   box.addEventListener("click", (e) => {
     const target = e.target
@@ -46,4 +40,11 @@
     }
 })
   ```
+  
+3. Object destructuring  
+  
+  ```
+  const {id, name, price} = service
+  ```
+  
 
