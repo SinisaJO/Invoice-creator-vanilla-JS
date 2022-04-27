@@ -4,7 +4,7 @@
 </p>
 
 <ol>
-  <h1>Requirements: </h1>
+  <h2>Requirements: </h2>
    <li> array to hold services requested </li>
    <li> buttons to add service to array </li>
    <li> place to display data from array - updated every time the array changes</li>
