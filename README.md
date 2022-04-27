@@ -3,7 +3,8 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-<ol>Requirements: 
+<ol>
+  <h1>Requirements: </h1>
    <li> array to hold services requested </li>
    <li> buttons to add service to array </li>
    <li> place to display data from array - updated every time the array changes</li>
