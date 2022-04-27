@@ -40,11 +40,6 @@
     }
 })
   ```
-  
-3. Object destructuring  
-  
-  ```
-  const {id, name, price} = service
-  ```
+
   
 
