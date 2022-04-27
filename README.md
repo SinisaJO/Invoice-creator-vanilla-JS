@@ -19,7 +19,7 @@
   
 <h2>Key learnings: </h2>
   
-1. Array methods - forEach(), findIndex()
+1. Array methods - forEach(), find(), findIndex()
   ```
   services.forEach(service => {
     const {id, name, price} = service
@@ -29,8 +29,12 @@
     `
   ```
   ```
-  const item = services.findIndex(service => service.id === target.id)
+    const item = services.find(service => service.id === target.id)
   ```
+  ```
+    const item = services.findIndex(service => service.id === target.id)
+  ```
+
   
 2. Event.Target
   ```
@@ -43,7 +47,15 @@
     }
 })
   ```
-
+  
+  
+3. Localstorage
+  ```
+    localStorage.setItem("services", JSON.stringify(servicesCart))
+  ```
+  ```
+    servicesCart = (JSON.parse(localStorage.getItem("services")))
+  ```
   
  <h3>Live server: https://effortless-pudding-1ca2ba.netlify.app/</h3>
   
