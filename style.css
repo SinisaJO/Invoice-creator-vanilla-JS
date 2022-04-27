@@ -1,0 +1,250 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  background: #1C1C1C;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  background: #FFFFFF;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.container__card {
+  background: #F5F5F5;
+  padding: 4rem 4.4rem;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #2B283A;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #2B283A;
+}
+
+.container__invoice {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__invoice .invoice_card {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #333;
+  width: 86%;
+}
+
+.container__invoice__btns {
+    margin: 2.375rem;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: .5rem;
+}
+
+.container__invoice .services-btn {
+  background: #FFFFFF;
+  border: 2px solid #D5D4D8;
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 9px 13px;
+  display: block;
+  white-space: nowrap;
+}
+
+.container__invoice .services-btn:focus {
+    outline: none;
+}
+
+
+.container__invoice .services-btn:active {
+  border: 2px solid #333;
+}
+
+.container__invoice .services-btn:disabled {
+  color: #3771ed96;
+}
+
+.container__invoice .sending-btn {
+  background: #3770ED;
+  padding: 9px 17px 9px 15px;
+  border: none;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  margin-bottom: 3.3125rem;
+  color: #FFFFFF;
+}
+.container__invoice .sending-btn:focus {
+    outline: none;
+}
+
+.container__invoice .top-text {
+  width: 470px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__invoice .bottom-text {
+    border-top: 2px solid #D5D4D8;
+}
+
+.container__invoice #services {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+}
+
+.container__invoice .sending-btn {
+  cursor: pointer;
+}
+
+.container__invoice .sending-btn:active {
+  -webkit-transform: scale(0.9925);
+          transform: scale(0.9925);
+}
+
+.container__invoice .strong-rmv {
+  cursor: pointer;
+  border: 2px solid #D5D4D8;
+  border-radius: 4px;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: .5rem;
+}
+
+.container__invoice .strong-rmv:active {
+  border: 2px solid #333;
+}
+
+.container__invoice .strong-rmv:focus {
+  outline: none;
+}
+
+.container__invoice .item-name {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+  color: #4A4E74;
+}
+
+.container__invoice .item-price {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 20px;
+  /* or 83% */
+  text-align: right;
+  color: #4A4E74;
+}
+
+.container__invoice .item-price-total {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 32px;
+  /* or 89% */
+  text-align: right;
+  color: #4A4E74;
+}

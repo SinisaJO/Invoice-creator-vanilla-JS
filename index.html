@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="/Icon.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Karla:wght@800&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inovice Generator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="flex">
+    <section class="container">
+        <div class="container__card">
+            <h1>Invoice creator</h1>
+            <h2>Thanks for choosing GoodCorp, LLC!</h2>
+        </div>
+        <div class="container__invoice flex">
+            <div class="invoice_card flex">
+                <div id="btn-box" class="container__invoice__btns flex">
+                </div>
+                <div class="container__invoice__input">
+                    <div class="flex top-text">
+                        <p>TASK</p>
+                        <p>TOTAL</p>
+                    </div>
+                    <div id="services">
+                    </div>
+                    <div class="flex bottom-text top-text">
+                        <p>NOTES</p>
+                        <p>TOTAL AMOUNT</p>
+                    </div>
+                    <div class="flex top-text">
+                        <p>We accept cash, credit card, or PayPal</p>
+                        <p><strong class="item-price-total" id="sum">$0</strong></p>
+                    </div>
+                </div>
+                <button class="sending-btn" id="sending-btn">Send invoice</button>
+            </div>
+        </div>
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>
