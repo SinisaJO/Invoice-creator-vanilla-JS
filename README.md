@@ -14,7 +14,7 @@
 </ol>
 <ul>
   <h2>Key learnings: </h2>
-   <li> Object destructuring </li> `const {id, name, price} = service`
+   <li> Object destructuring </li> ```const {id, name, price} = service```
    <li> Buttons to add service to array </li>
    <li> Place to display data from array - updated every time the array changes</li>
    <li> Once for same service</li>
