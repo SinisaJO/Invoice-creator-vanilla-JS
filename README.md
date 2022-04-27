@@ -40,7 +40,16 @@
     }
 })
   ```
-
+  
+3. Local Storage
+```
+  localStorage.setItem("services", JSON.stringify(servicesCart))
+```
+```
+  servicesCart = JSON.parse(localStorage.getItem("services"))
+```
+  
+  
  <h3>Live server: https://effortless-pudding-1ca2ba.netlify.app/</h3>
   
  <h3>Author: Sinisa Jovanovic(https://github.com/SinisaJO)</h3>
