@@ -4,12 +4,12 @@
 </p>
 
 <ol> Requirements: 
-   <li>1.array to hold services requested </li>
-   <li>2.buttons to add service to array </li>
-   <li>3.place to display data from array - updated every time the array changes</li>
-   <li>4.once for same service</li>
-   <li>5.total costs stays updated</li>
-   <li>6.button to &#34;submit/send invoice&#34; </li>
+   <li>array to hold services requested </li>
+   <li>buttons to add service to array </li>
+   <li>place to display data from array - updated every time the array changes</li>
+   <li>once for same service</li>
+   <li>total costs stays updated</li>
+   <li>button to &#34;submit/send invoice&#34; </li>
 </ol>
 ## Author
 
