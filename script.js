@@ -7,11 +7,13 @@ const services = [
     {id: '2', name: "Mow Lawn", price: 20},
     {id: '3', name: "Pull Weeds", price: 30}
 ]
-let servicesCart = JSON.parse(localStorage.getItem("services"))
+let servicesCart = []
 
-if(servicesCart) {
+if(JSON.parse(localStorage.getItem("services"))){
+    servicesCart = JSON.parse(localStorage.getItem("services"))
     renderService(servicesCart)
 }
+
 services.forEach(service => {
     const {id, name, price} = service
     servicesBox.innerHTML += 
