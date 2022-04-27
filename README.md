@@ -2,6 +2,8 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
+ <h4>Screenshoot</h4>
+ <img src="https://i.ibb.co/4NHQP0P/Inovice-Generator.png" alt="Inovice-Generator" border="0">
 
 <ol>
   <h2>Requirements: </h2>
@@ -48,10 +50,6 @@
 ```
   servicesCart = JSON.parse(localStorage.getItem("services"))
 ```
-  
- 
- <h4>Screenshoot</h4>
- <img src="https://i.ibb.co/4NHQP0P/Inovice-Generator.png" alt="Inovice-Generator" border="0">
   
   
  <h3>Live server: https://effortless-pudding-1ca2ba.netlify.app/</h3>
