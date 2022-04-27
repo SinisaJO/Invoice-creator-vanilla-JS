@@ -41,6 +41,7 @@
 })
   ```
 
- 
-  <h3>Author: Sinisa Jovanovic(https://github.com/SinisaJO)</h3>
+ <h3>Live server: https://effortless-pudding-1ca2ba.netlify.app/</h3>
+  
+ <h3>Author: Sinisa Jovanovic(https://github.com/SinisaJO)</h3>
 
