@@ -1,7 +1,5 @@
 <h1 align="center">Welcome to Invoice Creator APP 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+
  <h4>Screenshoot</h4>
  <img src="https://i.ibb.co/4NHQP0P/Inovice-Generator.png" alt="Inovice-Generator" border="0">
 
