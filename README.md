@@ -34,7 +34,7 @@
   ```
 
   
-2. Event.Target
+2. Event Object
   ```
   box.addEventListener("click", (e) => {
     const target = e.target
